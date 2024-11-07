@@ -18,8 +18,6 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Viraj\CustomerImport\Api\ImportInterface;
 use Viraj\CustomerImport\Model\Customer\CustomProfileFactory;
-// use Viraj\CustomerImport\Model\Customer\CsvImportFactory;
-// use Viraj\CustomerImport\Model\Customer\JsonImportFactory;
 use Viraj\CustomerImport\Model\Customer;
 
 class CustomerImport extends Command
