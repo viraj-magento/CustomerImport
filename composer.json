@@ -10,7 +10,19 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "prefer-stable": true,
+    "version":"1.0",
+    "require": {
+        "php": "~7.3.0||~7.4.0",
+        "magento/module-customer": "103.0.*",
+        "magento/module-customer-import-export": "100.4.*"
+    },
+    "repositories": {
+        "viraj-module/module-customerimport": {
+            "type": "git",
+            "url": "https://github.com/viraj-magento/CustomerImport.git"
+        }
+    },
     "autoload": {
         "files": [
             "registration.php"
