@@ -1,5 +1,5 @@
 {
-    "name": "viraj/module-customerimport",
+    "name": "viraj-magento/module-customerimport",
     "description": "Customer Import via csv and json files",
     "type": "magento2-module",
     "license": "GPL-3.0",
