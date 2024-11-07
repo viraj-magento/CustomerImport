@@ -13,7 +13,7 @@
     "prefer-stable": true,
     "version":"1.0",
     "require": {
-        "php": "~7.3.0||~7.4.0",
+        "php": "~7.3.0|~8.1.29",
         "magento/module-customer": "103.0.*",
         "magento/module-customer-import-export": "100.4.*"
     },
