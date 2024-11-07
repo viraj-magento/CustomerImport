@@ -23,6 +23,12 @@ use Viraj\CustomerImport\Model\Customer;
 class CustomerImport extends Command
 {
 
+
+    /**
+     * @var CustomProfileFactory
+     */
+    private $profileFactory;
+    
     /**
      * @var State
      */
